@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutGroup Component should match snapshot 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "animation": "bcCCNc 300ms ease 0s 1 normal none running",
+        "backfaceVisibility": "visible",
+      }
+    }
+  >
+    <div
+      className="senapati pro_senapati"
+    >
+      <div
+        className="about"
+      >
+        <div
+          className="sabout"
+        >
+          <div
+            className="sabout_one"
+          >
+            <img
+              src="/images/tree.png"
+            />
+            <div
+              className="sabout_one_info"
+            >
+              <span>
+                Update or edit group to make it look more attractive
+              </span>
+              <Link
+                className="sec_btn"
+                to="/"
+              >
+                Update group
+              </Link>
+              <Link
+                className="pri_btn"
+                to="/edit-profile"
+              >
+                Edit group
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div
+          className="fabout"
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+        >
+          <div
+            className="a_edit"
+            data-tip="Edit group"
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <Link
+              to="/group/11/edit"
+            >
+              <i
+                className="material-icons"
+              >
+                mode_edit
+              </i>
+            </Link>
+            <div
+              className="__react_component_tooltip place-top type-dark "
+              data-id="tooltip"
+            >
+              
+            </div>
+          </div>
+          <div>
+            <span
+              className="a_label"
+            >
+              Group name
+            </span>
+            <span
+              className="a_info"
+            >
+              a groupss
+            </span>
+          </div>
+          <div>
+            <span
+              className="a_label"
+            >
+              Bio
+            </span>
+            <span
+              className="a_info"
+            >
+              #random group
+            </span>
+          </div>
+          <div>
+            <span
+              className="a_label"
+            >
+              No of posts
+            </span>
+            <span
+              className="a_info"
+            >
+              undefined
+            </span>
+          </div>
+          <div>
+            <span
+              className="a_label"
+            >
+              Group type
+            </span>
+            <span
+              className="a_info"
+            >
+              public
+            </span>
+          </div>
+          <div>
+            <span
+              className="a_label"
+            >
+              Group created by
+            </span>
+            <Link
+              className="a_info"
+              to="/profile/takkar"
+            >
+              takkar
+            </Link>
+          </div>
+          <div>
+            <span
+              className="a_label"
+            >
+              Group created
+            </span>
+            <span
+              className="a_info"
+            >
+              a month ago
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

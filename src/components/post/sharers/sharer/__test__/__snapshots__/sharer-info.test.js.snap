@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SharerInfo Component should match snapshot 1`] = `
+<div
+  className="modal_it_info"
+>
+  <Link
+    className="modal_it_username"
+    to="/profile/ghalib"
+  >
+    ghalib
+  </Link>
+  <span
+    className="modal_it_light"
+  >
+    to 
+    selena
+  </span>
+</div>
+`;

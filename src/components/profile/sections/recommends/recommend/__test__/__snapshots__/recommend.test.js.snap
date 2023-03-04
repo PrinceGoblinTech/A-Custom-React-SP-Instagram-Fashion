@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecommendList Component should match snapshot 1`] = `
+<div
+  className="m_on followers_m_on"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+>
+  <div
+    className="m_top"
+  >
+    <img
+      src="/users/20/avatar.jpg"
+    />
+    <div
+      className="m_top_right"
+    >
+      <Link
+        to="/profile/gian"
+      >
+        gian
+      </Link>
+      <span>
+        Takeshi
+         
+        Gauda
+      </span>
+    </div>
+  </div>
+  <div
+    className="m_bottom"
+  >
+    <span
+      className="recommend_by"
+    >
+      by
+      <Link
+        to="/profile/selena"
+      >
+         selena
+      </Link>
+    </span>
+    <a
+      className="sec_btn"
+      href="#"
+      onClick={[Function]}
+    >
+      Remove
+    </a>
+  </div>
+</div>
+`;

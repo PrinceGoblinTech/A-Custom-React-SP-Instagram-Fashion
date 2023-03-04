@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BannerStats Component should match snapshot with favourites stat 1`] = `
+<div
+  className="pro_bottom"
+>
+  <div
+    className="pro_post stat_disabled"
+  >
+    <span
+      className="pro_hg"
+    >
+      2
+    </span>
+    <span
+      className="pro_nhg"
+    >
+      Posts
+    </span>
+  </div>
+  <Link
+    to="/profile/takkar/followers"
+  >
+    <span
+      className="pro_hg"
+    >
+      2
+    </span>
+    <span
+      className="pro_nhg"
+    >
+      Followers
+    </span>
+  </Link>
+  <Link
+    to="/profile/takkar/followings"
+  >
+    <span
+      className="pro_hg"
+    >
+      2
+    </span>
+    <span
+      className="pro_nhg"
+    >
+      Followings
+    </span>
+  </Link>
+  <Link
+    to="/profile/takkar/favourites"
+  >
+    <span
+      className="pro_hg"
+    >
+      1
+    </span>
+    <span
+      className="pro_nhg"
+    >
+      Favourites
+    </span>
+  </Link>
+  <div
+    className="pro_post stat_disabled"
+  >
+    <span
+      className="pro_hg"
+    >
+      10
+    </span>
+    <span
+      className="pro_nhg"
+    >
+      Profile views
+    </span>
+  </div>
+</div>
+`;
+
+exports[`BannerStats Component should match snapshot with recommendation stat 1`] = `
+<div
+  className="pro_bottom"
+>
+  <div
+    className="pro_post stat_disabled"
+  >
+    <span
+      className="pro_hg"
+    >
+      2
+    </span>
+    <span
+      className="pro_nhg"
+    >
+      Posts
+    </span>
+  </div>
+  <Link
+    to="/profile/takkar/followers"
+  >
+    <span
+      className="pro_hg"
+    >
+      2
+    </span>
+    <span
+      className="pro_nhg"
+    >
+      Followers
+    </span>
+  </Link>
+  <Link
+    to="/profile/takkar/followings"
+  >
+    <span
+      className="pro_hg"
+    >
+      2
+    </span>
+    <span
+      className="pro_nhg"
+    >
+      Followings
+    </span>
+  </Link>
+  <Link
+    to="/profile/takkar/recommendations"
+  >
+    <span
+      className="pro_hg"
+    >
+      1
+    </span>
+    <span
+      className="pro_nhg"
+    >
+      Recommendations
+    </span>
+  </Link>
+  <div
+    className="pro_post stat_disabled"
+  >
+    <span
+      className="pro_hg"
+    >
+      10
+    </span>
+    <span
+      className="pro_nhg"
+    >
+      Profile views
+    </span>
+  </div>
+</div>
+`;

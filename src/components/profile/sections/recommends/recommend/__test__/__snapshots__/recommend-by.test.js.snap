@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecommendBy Component should match snapshot 1`] = `
+<span
+  className="recommend_by"
+>
+  by
+  <Link
+    to="/profile/ghalib"
+  >
+     ghalib
+  </Link>
+</span>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppLink Component should match snapshot with children prop 1`] = `
+<Link
+  to="/"
+>
+  <img
+    src="/images/spacecraft.jpg"
+  />
+</Link>
+`;
+
+exports[`AppLink Component should match snapshot with label as a string 1`] = `
+<Link
+  to="/"
+>
+  Home
+</Link>
+`;

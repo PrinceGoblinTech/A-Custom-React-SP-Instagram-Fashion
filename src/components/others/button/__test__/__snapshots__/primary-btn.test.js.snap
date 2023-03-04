@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Primary Button Component should match snapshot 1`] = `
+<a
+  className="pri_btn p_add"
+  href="#"
+  onClick={[MockFunction]}
+>
+  Add post
+</a>
+`;
+
+exports[`Primary Button Component should match snapshot with label as a function and disabled=true 1`] = `
+<a
+  className="pri_btn a_disabled"
+  href="#"
+  onClick={[MockFunction]}
+>
+  <img
+    src="/images/spacecraft.jpg"
+  />
+</a>
+`;

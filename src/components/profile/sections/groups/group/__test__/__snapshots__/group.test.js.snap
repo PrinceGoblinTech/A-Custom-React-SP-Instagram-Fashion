@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserGroupList Component should match snapshot with group page link 1`] = `
+<div
+  className="m_on followers_m_on"
+>
+  <div
+    className="m_top"
+  >
+    <img
+      src="/groups/11/avatar.jpg"
+    />
+    <div
+      className="m_top_right"
+    >
+      <Link
+        to="/group/11"
+      >
+        a groupss
+      </Link>
+      <span
+        className="grp_admin"
+      >
+        admin
+      </span>
+      <span>
+        a month ago
+      </span>
+    </div>
+  </div>
+  <div
+    className="m_bottom"
+  >
+    <Link
+      className="sec_btn"
+      to="/group/11"
+    >
+      View group
+    </Link>
+  </div>
+</div>
+`;

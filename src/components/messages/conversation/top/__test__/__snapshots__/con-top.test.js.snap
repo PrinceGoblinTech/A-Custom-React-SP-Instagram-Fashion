@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConversationTop Component should match snapshot 1`] = `
+<div
+  className="m_m_top"
+>
+  <div>
+    <img
+      className="con_with_avatar"
+      src="/users/28/avatar.jpg"
+    />
+    <div
+      className="m_m_t_c"
+    >
+      <Link
+        className="con_name"
+        to="/profile/selena"
+      >
+        selena
+      </Link>
+      <span
+        className="m_m_t_useless"
+      >
+        Last active a month ago
+      </span>
+    </div>
+  </div>
+  <span
+    className="m_m_exp"
+    data-tip="Options"
+    onClick={[Function]}
+  >
+    <i
+      className="material-icons"
+    >
+      expand_more
+    </i>
+  </span>
+</div>
+`;

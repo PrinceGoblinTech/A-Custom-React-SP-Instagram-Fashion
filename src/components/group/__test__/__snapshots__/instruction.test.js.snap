@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupInstruction Component should match snapshot 1`] = `
+<div
+  className="sabout_one"
+>
+  <img
+    src="/images/tree.png"
+  />
+  <div
+    className="sabout_one_info"
+  >
+    <span>
+      Update or edit group to make it look more attractive
+    </span>
+    <Link
+      className="sec_btn"
+      to="/"
+    >
+      Update group
+    </Link>
+    <Link
+      className="pri_btn"
+      to="/edit-profile"
+    >
+      Edit group
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`GroupInstruction Component should match snapshot and hide buttons 1`] = `
+<div
+  className="sabout_one"
+>
+  <img
+    src="/images/tree.png"
+  />
+  <div
+    className="sabout_one_info"
+  >
+    <span>
+      Update or edit group to make it look more attractive
+    </span>
+  </div>
+</div>
+`;

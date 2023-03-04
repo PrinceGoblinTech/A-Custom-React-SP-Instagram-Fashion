@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileNav Component should match snapshot 1`] = `
+<div
+  className="pro_nav user_nav"
+>
+  <ul>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/takkar"
+      >
+        Posts
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/takkar/tagged"
+      >
+        Tagged
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/takkar/shared"
+      >
+        Shared
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/takkar/gallery"
+      >
+        Gallery
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/takkar/bookmarks"
+      >
+        Bookmarks
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/takkar/groups"
+      >
+        Groups
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/takkar/about"
+      >
+        About
+      </NavLink>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`ProfileNav Component should match snapshot when profile is not mine 1`] = `
+<div
+  className="pro_nav user_nav not_me_nav"
+>
+  <ul>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/ghalib"
+      >
+        Posts
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/ghalib/tagged"
+      >
+        Tagged
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/ghalib/shared"
+      >
+        Shared
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/ghalib/gallery"
+      >
+        Gallery
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/ghalib/groups"
+      >
+        Groups
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/profile/ghalib/about"
+      >
+        About
+      </NavLink>
+    </li>
+  </ul>
+</div>
+`;

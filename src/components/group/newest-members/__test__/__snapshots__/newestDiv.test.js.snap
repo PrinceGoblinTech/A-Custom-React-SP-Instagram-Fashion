@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewestMembersDiv Component should match snapshot 1`] = `
+<div
+  className="mutuals"
+>
+  <div
+    className="mutual_info"
+  >
+    <span>
+      Newest members
+    </span>
+    <Link
+      className="view_all_yk"
+      data-tip="view all"
+      to="/group/34/members"
+    >
+      <i
+        className="fas fa-chevron-right"
+      />
+    </Link>
+  </div>
+  <div
+    className="mutual_main"
+  >
+    <Link
+      className="mutual_links"
+      data-tip="ghalib"
+      to="/profile/ghalib"
+    >
+      <img
+        src="/users/7/avatar.jpg"
+      />
+    </Link>
+  </div>
+  <div
+    className="__react_component_tooltip place-top type-dark "
+    data-id="tooltip"
+  >
+    
+  </div>
+</div>
+`;

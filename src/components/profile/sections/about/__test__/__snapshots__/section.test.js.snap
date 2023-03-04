@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutSection Component should match snapshot 1`] = `
+<div>
+  <span
+    className="a_label"
+  >
+    Username
+  </span>
+  <span
+    className="a_info"
+  >
+    takkar
+  </span>
+</div>
+`;
+
+exports[`AboutSection Component should match snapshot with isLink prop 1`] = `
+<div>
+  <span
+    className="a_label"
+  >
+    Github
+  </span>
+  <a
+    className="a_info"
+    href="https://www.github.com/JamesRoss222"
+    target="_blank"
+  >
+    https://www.github.com/JamesRoss222
+  </a>
+</div>
+`;
+
+exports[`AboutSection Component should match snapshot with null 1`] = `
+<div>
+  <span
+    className="a_label"
+  >
+    Firstname
+  </span>
+  <Link
+    to="/edit-profile"
+  >
+    Add Firstname account
+  </Link>
+</div>
+`;

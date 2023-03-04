@@ -1,0 +1,423 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserPostsLeftSection Component should match snapshot when profile is mine 1`] = `
+Array [
+  <div>
+    <div
+      className="recomm"
+    >
+      <div
+        className="recomm_top"
+      >
+        <span>
+          Suggested
+        </span>
+        <a
+          className="recomm_refresh"
+          data-tip="refresh"
+          href="#"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-sync-alt"
+          />
+        </a>
+        <Link
+          className="recomm_all"
+          data-tip="view all"
+          to="/explore"
+        >
+          <i
+            className="fas fa-chevron-right"
+          />
+        </Link>
+      </div>
+      <div
+        className="recomm_main"
+        style={
+          Object {
+            "height": 100,
+          }
+        }
+      >
+        <div
+          className="spinner"
+        >
+          <span />
+          <span />
+          <span />
+        </div>
+        <div
+          className="cLoading"
+        >
+          <div
+            className="recomms"
+          >
+            <img
+              alt=""
+              src="/users/7/avatar.jpg"
+            />
+            <div
+              className="recomms_cont"
+            >
+              <Link
+                className="recomms_username"
+                to="/profile/ghalib"
+              >
+                ghalib
+              </Link>
+              <span>
+                1 mutual follower
+              </span>
+            </div>
+            <div
+              className="recomms_ff"
+            >
+              <a
+                className="pri_btn follow"
+                href="#"
+                onClick={[Function]}
+              >
+                Follow
+              </a>
+            </div>
+          </div>
+          <div
+            className="recomms"
+          >
+            <img
+              alt=""
+              src="/users/8/avatar.jpg"
+            />
+            <div
+              className="recomms_cont"
+            >
+              <Link
+                className="recomms_username"
+                to="/profile/coldplay"
+              >
+                coldplay
+              </Link>
+              <span>
+                cold play
+              </span>
+            </div>
+            <div
+              className="recomms_ff"
+            >
+              <a
+                className="pri_btn follow"
+                href="#"
+                onClick={[Function]}
+              >
+                Follow
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="__react_component_tooltip place-top type-dark "
+      data-id="tooltip"
+    >
+      
+    </div>
+  </div>,
+  <div>
+    <div
+      className="recomm user-hashtags"
+    >
+      <div
+        className="recomm_top"
+      >
+        <span>
+          Your recent hashtags
+        </span>
+      </div>
+      <div
+        className="recomm_main"
+      >
+        <Link
+          className="uh_link"
+          to="/hashtag/travel"
+        >
+          #travel
+        </Link>
+        <Link
+          className="uh_link"
+          to="/hashtag/cool"
+        >
+          #cool
+        </Link>
+        <Link
+          className="uh_link"
+          to="/hashtag/hmm"
+        >
+          #hmm
+        </Link>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`UserPostsLeftSection Component should match snapshot when profile is not mine 1`] = `
+Array [
+  <div>
+    <div
+      className="mutuals"
+    >
+      <div
+        className="mutual_info"
+      >
+        <span>
+          1 follower
+           you might know
+        </span>
+        <Link
+          className="view_all_yk"
+          data-tip="view all"
+          to="/profile/ghalib/people-you-know"
+        >
+          <i
+            className="fas fa-chevron-right"
+          />
+        </Link>
+      </div>
+      <div
+        className="mutual_main"
+      >
+        <Link
+          className="mutual_links"
+          data-tip="nobita"
+          to="/profile/nobita"
+        >
+          <img
+            src="/users/11/avatar.jpg"
+          />
+        </Link>
+      </div>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+      >
+        
+      </div>
+    </div>
+  </div>,
+  <div>
+    <div
+      className="recomm"
+    >
+      <div
+        className="recomm_top"
+      >
+        <span>
+          Suggested
+        </span>
+        <a
+          className="recomm_refresh"
+          data-tip="refresh"
+          href="#"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-sync-alt"
+          />
+        </a>
+        <Link
+          className="recomm_all"
+          data-tip="view all"
+          to="/explore"
+        >
+          <i
+            className="fas fa-chevron-right"
+          />
+        </Link>
+      </div>
+      <div
+        className="recomm_main"
+        style={
+          Object {
+            "height": 100,
+          }
+        }
+      >
+        <div
+          className="spinner"
+        >
+          <span />
+          <span />
+          <span />
+        </div>
+        <div
+          className="cLoading"
+        >
+          <div
+            className="recomms"
+          >
+            <img
+              alt=""
+              src="/users/7/avatar.jpg"
+            />
+            <div
+              className="recomms_cont"
+            >
+              <Link
+                className="recomms_username"
+                to="/profile/ghalib"
+              >
+                ghalib
+              </Link>
+              <span>
+                1 mutual follower
+              </span>
+            </div>
+            <div
+              className="recomms_ff"
+            >
+              <a
+                className="pri_btn follow"
+                href="#"
+                onClick={[Function]}
+              >
+                Follow
+              </a>
+            </div>
+          </div>
+          <div
+            className="recomms"
+          >
+            <img
+              alt=""
+              src="/users/8/avatar.jpg"
+            />
+            <div
+              className="recomms_cont"
+            >
+              <Link
+                className="recomms_username"
+                to="/profile/coldplay"
+              >
+                coldplay
+              </Link>
+              <span>
+                cold play
+              </span>
+            </div>
+            <div
+              className="recomms_ff"
+            >
+              <a
+                className="pri_btn follow"
+                href="#"
+                onClick={[Function]}
+              >
+                Follow
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="__react_component_tooltip place-top type-dark "
+      data-id="tooltip"
+    >
+      
+    </div>
+  </div>,
+  <div>
+    <div
+      className="recomm user-hashtags"
+    >
+      <div
+        className="recomm_top"
+      >
+        <span>
+          Your recent hashtags
+        </span>
+      </div>
+      <div
+        className="recomm_main"
+      >
+        <Link
+          className="uh_link"
+          to="/hashtag/travel"
+        >
+          #travel
+        </Link>
+        <Link
+          className="uh_link"
+          to="/hashtag/cool"
+        >
+          #cool
+        </Link>
+        <Link
+          className="uh_link"
+          to="/hashtag/hmm"
+        >
+          #hmm
+        </Link>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <div
+      className="recomm_teaser"
+    >
+      <span>
+        Wanna recommend 
+        ghalib
+         to others or invite someone, so they can get to know about 
+        ghalib
+        .
+      </span>
+      <a
+        className="sec_btn"
+        href="#"
+        onClick={[Function]}
+      >
+        Recommend
+      </a>
+    </div>
+  </div>,
+  <div>
+    <div
+      className="recomm_teaser"
+    >
+      <span>
+        Wanna add 
+        ghalib
+         to your favourites list.
+      </span>
+      <a
+        className="sec_btn"
+        href="#"
+        onClick={[Function]}
+      >
+        Add
+      </a>
+    </div>
+  </div>,
+  <div
+    className="recomm_teaser"
+  >
+    <span>
+      Wanna message 
+      ghalib
+      ? Create a private conversation with 
+      ghalib
+      .
+    </span>
+    <a
+      className="sec_btn"
+      href="#"
+      onClick={[Function]}
+    >
+      Message
+    </a>
+  </div>,
+]
+`;

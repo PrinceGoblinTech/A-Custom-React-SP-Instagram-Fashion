@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should match snapshot 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="logo"
+  >
+    <Link
+      to="/"
+    >
+      <img
+        alt="Instagram"
+        src="/images/instagram.jpg"
+      />
+    </Link>
+  </div>
+  <div>
+    <div
+      className="search_box"
+    >
+      <input
+        autoComplete="false"
+        autoFocus={true}
+        className="search"
+        disabled={false}
+        maxLength="255"
+        onChange={[Function]}
+        placeholder="Search Instagram"
+        spellCheck="false"
+        type="text"
+        value=""
+      />
+      <span
+        className="search_icon"
+      >
+        <i
+          className="fas fa-search"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="header_right"
+  >
+    <NavLink
+      activeClassName="ha_active"
+      className="notification"
+      to="/notifications"
+    >
+      <span
+        className="notification_span nav_icon"
+      >
+        <i
+          className="material-icons"
+        >
+          notifications_none
+        </i>
+      </span>
+      <span
+        className="links_span"
+      >
+        Notifications
+      </span>
+    </NavLink>
+    <NavLink
+      activeClassName="ha_active"
+      className="sp"
+      to="/profile/null"
+    >
+      <img
+        alt="avatar"
+        className="sp_img"
+        src="/users/null/avatar.jpg"
+      />
+      <span
+        className="sp_span"
+      />
+    </NavLink>
+    <span
+      className="show_more"
+      onClick={[Function]}
+    >
+      <i
+        className="material-icons"
+      >
+        expand_more
+      </i>
+    </span>
+  </div>
+</div>
+`;

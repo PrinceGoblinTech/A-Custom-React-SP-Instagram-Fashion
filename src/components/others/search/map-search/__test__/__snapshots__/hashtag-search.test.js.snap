@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hashtag-Search Component should match snapshot 1`] = `
+<div
+  className="s_d_peo"
+  onClick={[MockFunction]}
+>
+  <Link
+    className="s_d_p h_d_p"
+    to="/hashtag/travel"
+  >
+    <span
+      className="s_d_username"
+    >
+      #travel
+    </span>
+  </Link>
+</div>
+`;

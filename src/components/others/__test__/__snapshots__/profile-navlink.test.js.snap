@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Navlink should match snapshot 1`] = `
+<li>
+  <NavLink
+    activeClassName="pro_nav_active"
+    className="inst_nav"
+    exact={true}
+    to="/profile/takkar/bookmarks"
+  >
+    Bookmarks
+  </NavLink>
+</li>
+`;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favourite Component should match snapshot with profile link 1`] = `
+<div
+  className="m_on followers_m_on"
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+>
+  <div
+    className="m_top"
+  >
+    <img
+      src="/users/24/avatar.jpg"
+    />
+    <div
+      className="m_top_right"
+    >
+      <Link
+        to="/profile/kinkade"
+      >
+        kinkade
+      </Link>
+      <span>
+        Thomas
+         
+        Kinkade
+      </span>
+    </div>
+  </div>
+  <div
+    className="m_bottom"
+  >
+    <a
+      className="sec_btn"
+      href="#"
+      onClick={[Function]}
+    >
+      Remove 
+    </a>
+    <Link
+      className="sec_btn"
+      to="/profile/kinkade"
+    >
+      Profile
+    </Link>
+  </div>
+</div>
+`;

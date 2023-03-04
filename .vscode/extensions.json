@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "christian-kohler.path-intellisense",
+    "dbankier.vscode-instant-markdown",
+    "TomiTurtiainen.js-complexity-analysis",
+    "kisstkondoros.vscode-codemetrics",
+    "dbaeumer.vscode-eslint",
+    "CoenraadS.bracket-pair-colorizer",
+    "PKief.material-icon-theme"
+  ]
+}

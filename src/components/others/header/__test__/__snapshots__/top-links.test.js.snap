@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderTopLinks Component should match snapshot 1`] = `
+Array [
+  <NavLink
+    activeClassName="ha_active"
+    className="notification"
+    to="/notifications"
+  >
+    <span
+      className="notification_span nav_icon"
+    >
+      <i
+        className="material-icons"
+      >
+        notifications_none
+      </i>
+    </span>
+    <span
+      className="links_span"
+    >
+      Notifications
+    </span>
+  </NavLink>,
+  <NavLink
+    activeClassName="ha_active"
+    className="sp"
+    to="/profile/null"
+  >
+    <img
+      alt="avatar"
+      className="sp_img"
+      src="/users/null/avatar.jpg"
+    />
+    <span
+      className="sp_span"
+    />
+  </NavLink>,
+]
+`;

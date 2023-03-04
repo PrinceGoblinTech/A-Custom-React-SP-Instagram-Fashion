@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupNav Component should match snapshot 1`] = `
+<div
+  className="pro_nav user_nav"
+>
+  <ul>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/group/11"
+      >
+        Posts
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/group/11/members"
+      >
+        Members
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/group/11/gallery"
+      >
+        Gallery
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/group/11/about"
+      >
+        About
+      </NavLink>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`GroupNav Component should match snapshot and show edit & add-member links also 1`] = `
+<div
+  className="pro_nav user_nav"
+>
+  <ul>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/group/11"
+      >
+        Posts
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/group/11/members"
+      >
+        Members
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/group/11/gallery"
+      >
+        Gallery
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/group/11/edit"
+      >
+        Edit
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/group/11/add-members"
+      >
+        Add members
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="pro_nav_active"
+        className="inst_nav"
+        exact={true}
+        to="/group/11/about"
+      >
+        About
+      </NavLink>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsNav Component should match snapshot 1`] = `
+<div
+  className="settings_nav_div"
+>
+  <ul>
+    <li>
+      <NavLink
+        activeClassName="settings_nav_active"
+        className="settings_nav"
+        exact={true}
+        to="/settings"
+      >
+        Profile settings
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="settings_nav_active"
+        className="settings_nav"
+        to="/settings/change-password"
+      >
+        Change password
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="settings_nav_active"
+        className="settings_nav"
+        to="/settings/deactivate"
+      >
+        Deactivate
+      </NavLink>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PeopleYouKnowList Component should match snapshot with profile link 1`] = `
+<div
+  className="m_on followers_m_on"
+>
+  <div
+    className="m_top"
+  >
+    <img
+      src="/users/24/avatar.jpg"
+    />
+    <div
+      className="m_top_right"
+    >
+      <Link
+        to="/profile/nobita"
+      >
+        nobita
+      </Link>
+      <span>
+        nobita nobi
+      </span>
+    </div>
+  </div>
+  <div
+    className="m_bottom"
+  >
+    <Link
+      className="sec_btn "
+      to="/profile/nobita"
+    >
+      Profile
+    </Link>
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalItemInfo Component should match snapshot 1`] = `
+<div
+  className="modal_it_info"
+>
+  <Link
+    className="modal_it_username"
+    to="/profile/takkar"
+  >
+    takkar
+  </Link>
+  <span
+    className="modal_it_light"
+  >
+    faiyaz shaikh
+  </span>
+</div>
+`;

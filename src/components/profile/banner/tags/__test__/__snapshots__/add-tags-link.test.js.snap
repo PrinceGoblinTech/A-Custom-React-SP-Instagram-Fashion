@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BannerAddTagsLink Component should match snapshot and show add link 1`] = `
+<NavLink
+  className="add_tags"
+  to="/edit-profile"
+>
+  add
+</NavLink>
+`;
+
+exports[`BannerAddTagsLink Component should match snapshot with null 1`] = `null`;

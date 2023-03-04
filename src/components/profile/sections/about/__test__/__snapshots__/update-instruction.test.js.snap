@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpdateInstruction Component should match snapshot 1`] = `
+<div
+  className="sabout_one"
+>
+  <img
+    src="/images/tree.png"
+  />
+  <div
+    className="sabout_one_info"
+  >
+    <span>
+      Update or edit you profile to make it look more attractive
+    </span>
+    <Link
+      className="sec_btn"
+      to="/"
+    >
+      Update profile
+    </Link>
+    <Link
+      className="pri_btn"
+      to="/edit-profile"
+    >
+      Edit profile
+    </Link>
+  </div>
+</div>
+`;

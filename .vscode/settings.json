@@ -1,0 +1,16 @@
+{
+  "editor.tabSize": 2,
+  "editor.autoIndent": "advanced",
+  "git.ignoreLimitWarning": true,
+  "codemetrics.nodeconfiguration.JsxSelfClosingElement": 0,
+  "complexityAnalysis.exclude": [
+    "node_modules/*",
+    "dist/*"
+  ],
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+}

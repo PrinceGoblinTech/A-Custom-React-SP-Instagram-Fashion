@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToTags Component should match snapshot with complex hashtag string 1`] = `
+<span>
+  <Link
+    className="hashtag"
+    to="/hashtag/This"
+  >
+    #This 
+  </Link>
+  is 
+  a 
+  ##double 
+  hashtag 
+</span>
+`;
+
+exports[`ToTags Component should match snapshot with link string 1`] = `
+<span>
+  Hey 
+  <Link
+    className="hashtag"
+    to="/profile/ghalib"
+  >
+    @ghalib, 
+  </Link>
+  <Link
+    className="hashtag"
+    to="/hashtag/checkout"
+  >
+    #checkout 
+  </Link>
+  <a
+    className="hashtag"
+    href="https://github.com/JamesRoss222/React-Custom_Instagram_SP-2.0"
+    target="_blank"
+  >
+    https://github.com/JamesRoss222/React-Custom_Instagram_SP-2.0 
+  </a>
+</span>
+`;
+
+exports[`ToTags Component should match snapshot with mention string 1`] = `
+<span>
+  A 
+  very 
+  <Link
+    className="hashtag"
+    to="/hashtag/good"
+  >
+    #good 
+  </Link>
+  ##morning 
+  <Link
+    className="hashtag"
+    to="/profile/ghalib"
+  >
+    @ghalib, 
+  </Link>
+  <Link
+    className="hashtag"
+    to="/profile/zayn"
+  >
+    @zayn 
+  </Link>
+</span>
+`;
+
+exports[`ToTags Component should match snapshot with simple hashtag string 1`] = `
+<span>
+  A 
+  very 
+  <Link
+    className="hashtag"
+    to="/hashtag/good"
+  >
+    #good 
+  </Link>
+  morning 
+</span>
+`;

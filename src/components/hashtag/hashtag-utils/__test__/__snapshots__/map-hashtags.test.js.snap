@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MapHashtags Component should match snapshot 1`] = `
+<div
+  className="recomm_main"
+>
+  <Link
+    className="uh_link"
+    to="/hashtag/travel"
+  >
+    #travel
+  </Link>
+  <Link
+    className="uh_link"
+    to="/hashtag/cool"
+  >
+    #cool
+  </Link>
+  <Link
+    className="uh_link"
+    to="/hashtag/hmm"
+  >
+    #hmm
+  </Link>
+</div>
+`;
